@@ -15,7 +15,7 @@ Use it when you want declarative rules like:
 ## Install
 
 ```bash
-go get github.com/yourorg/ccxpolicy@latest
+go get github.com/ArieDeha/ccxpolicy@latest
 ```
 
 ---
@@ -97,7 +97,7 @@ type Decision struct {
 package main
 
 import (
-    policy "github.com/yourorg/ccxpolicy"
+    policy "github.com/ArieDeha/ccxpolicy"
 )
 
 type QualityCap struct{}
